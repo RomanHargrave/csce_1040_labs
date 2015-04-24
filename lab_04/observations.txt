@@ -1,0 +1,50 @@
+Lab 4
+
+    Runtimes
+        
+        binarySearch / normal
+            - trial 1   -> 2.61 r, u. 0s
+            - trial 2   -> 2.63 r, u. 0s
+            - trial 3   -> 2.61 r, u. 0s
+            - trial 4   -> 2.62 r, u. 0s
+            - trial 5   -> 2.61 r, u. 0s
+
+            - Average 2.62
+
+        binarySearch / 48 (50k)
+            - trial 1   -> 1.53 r, u. 0s
+            - trial 2   -> 1.54 r, u. 0s
+            - trial 3   -> 1.55 r, u. 0s
+            - trial 4   -> 1.54 r, u. 0s
+            - trial 5   -> 1.53 r, u. 0s
+
+            - Average 1.538
+
+        binarySearch / 95
+            - trial 1   -> 1.54 r, u. 0s
+            - trial 2   -> 1.54 r, u. 0s
+            - trial 3   -> 1.54 r, u. 0s
+            - trial 4   -> 1.53 r, u. 0s
+            - trial 5   -> 1.54 r, u. 0s
+
+            - Average 1.538
+
+        hashSearch / 48
+            - trial 1   -> 0.46 r, u. 0s
+            - trial 2   -> 0.46 r, u. 0s
+            - trial 3   -> 0.46 r, u. 0s
+            - trial 4   -> 0.46 r, u. 0s
+            - trial 5   -> 0.46 r, u. 0s
+
+            - Average: 0.46
+
+        hashSearch / 95
+            - trial 1   -> 12.97 r, u. 0s
+            - trial 2   -> 12.91 r, u. 0s
+            - trial 3   -> 12.90 r, u. 0s
+            - trial 4   -> 12.90 r, u. 0s
+            - trial 5   -> 12.93 r, u. 0s
+
+            - Average 12.92
+
+ 

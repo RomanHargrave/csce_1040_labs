@@ -1,0 +1,26 @@
+CC=gcc
+CFLAGS=
+
+SHARED=sum.o main.o
+
+all: $(SHARED) sum
+
+sum: $(SHARED) sum.h
+	$(CC) $(CFLAGS) -o sum sum.o main.o
+
+%.o: %.c %.h
+	$(CC) $(CFLAGS) -c $*.c
+
+clean: main.o/clean sum.o/clean sum/clean
+
+sum.o/clean:
+	rm sum.o
+
+main.o/clean:
+	rm main.o
+
+sum/clean:
+	rm sum
+
+run: sum
+	exec ./sum

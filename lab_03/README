@@ -1,0 +1,6 @@
+This will likely compile, but not run, on you machine.
+
+Just change all the shady address-to-function-pointer casts to the `liar`
+function and it will work.
+
+The reason for it being obfuscated like it is was to blow off steam.
